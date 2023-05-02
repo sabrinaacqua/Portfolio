@@ -1,0 +1,148 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    margin-right: 1rem;
+}
+  
+.logo img {
+    height: 80px;
+}
+ 
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+ 
+nav li a {
+    display: block;
+    padding: 10px;
+    color: #000;
+    background-color: #EFD7BD;
+    text-decoration: none;
+    border-bottom: 5px solid transparent;
+}
+ 
+nav li a:hover {
+    background-color: none;
+    border-bottom: 3px solid #875A3D;
+}
+
+body {
+    display: block;
+    text-align: center;
+    background-color: #EFD7BD;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #fff;
+    color: #875A3D;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid #875A3D;
+    margin-bottom: 75px;
+  }
+
+
+button:hover {
+    background-color: #875A3D;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.centered-image {
+    display: block;
+    margin: -5px auto 0;
+    max-width: 50%;
+    height: 150px;
+}
+  
+  
+h1 {
+    font-size: 45px;
+}
+
+
+h4 {
+    font-size: 19px;
+    font-weight: normal;
+}
+ 
+h5 {
+    width: 600px;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75px; 
+    background-color: #EFD7BD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: none;
+    color: black;
+    border-bottom: 3px solid #875A3D;
+  }
+  
+  .footer-logo {
+    margin-right: 1rem;
+  }
+  
+  .footer-logo img {
+    height: 50px;
+  }
+  
